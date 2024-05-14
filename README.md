@@ -22,9 +22,9 @@ This Python project demonstrates hand gesture recognition and a simple drawing a
 
 Contains a Python module (`handTrackingModule`) that defines a `HandDetector` class for hand tracking and gesture recognition. The class uses the MediaPipe library for detecting hand landmarks, identifying finger positions, and recognizing gestures.
 
-### `main.py`
+### `VirtualPainter.py`
 
-The `main.py` script integrates the `HandDetector` class to create a real-time drawing application. It utilizes the OpenCV library to capture video from the webcam, track hand movements, and enable drawing functionalities based on recognized gestures.
+The `VirtualPainter.py` script integrates the `HandDetector` class to create a real-time drawing application. It utilizes the OpenCV library to capture video from the webcam, track hand movements, and enable drawing functionalities based on recognized gestures.
 
 ## Getting Started
 
@@ -37,7 +37,7 @@ The `main.py` script integrates the `HandDetector` class to create a real-time d
 ### Running the Application
 
 1. Install the required dependencies using `pip install opencv-python mediapipe`.
-2. Run the `main.py` script to start the application.
+2. Run the `VirtualPainter.py` script to start the application.
 
 ## How to Use
 
